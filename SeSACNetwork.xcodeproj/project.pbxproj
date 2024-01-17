@@ -19,6 +19,14 @@
 		DE99C2432B56578600158E02 /* LottoAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE99C2422B56578600158E02 /* LottoAPIManager.swift */; };
 		DE99C2832B576AE900158E02 /* BookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE99C2822B576AE900158E02 /* BookViewController.swift */; };
 		DE99C2852B576C2700158E02 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = DE99C2842B576C2700158E02 /* .gitignore */; };
+		DE99C2872B576D0800158E02 /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE99C2862B576D0800158E02 /* APIKey.swift */; };
+		DE99C28B2B57A27400158E02 /* LanguageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE99C28A2B57A27400158E02 /* LanguageViewController.swift */; };
+		DE99C2902B57A33F00158E02 /* LanguageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE99C28E2B57A33F00158E02 /* LanguageTableViewCell.swift */; };
+		DE99C2912B57A33F00158E02 /* LanguageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE99C28F2B57A33F00158E02 /* LanguageTableViewCell.xib */; };
+		DE99C2942B57A3B600158E02 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE99C2932B57A3B600158E02 /* UIButton+Extension.swift */; };
+		DE99C2982B57E94700158E02 /* BookCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE99C2962B57E94700158E02 /* BookCollectionViewCell.swift */; };
+		DE99C2992B57E94700158E02 /* BookCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE99C2972B57E94700158E02 /* BookCollectionViewCell.xib */; };
+		DE99C29C2B57F1CC00158E02 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = DE99C29B2B57F1CC00158E02 /* Kingfisher */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +43,13 @@
 		DE99C2422B56578600158E02 /* LottoAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoAPIManager.swift; sourceTree = "<group>"; };
 		DE99C2822B576AE900158E02 /* BookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookViewController.swift; sourceTree = "<group>"; };
 		DE99C2842B576C2700158E02 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		DE99C2862B576D0800158E02 /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
+		DE99C28A2B57A27400158E02 /* LanguageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageViewController.swift; sourceTree = "<group>"; };
+		DE99C28E2B57A33F00158E02 /* LanguageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageTableViewCell.swift; sourceTree = "<group>"; };
+		DE99C28F2B57A33F00158E02 /* LanguageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LanguageTableViewCell.xib; sourceTree = "<group>"; };
+		DE99C2932B57A3B600158E02 /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		DE99C2962B57E94700158E02 /* BookCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCollectionViewCell.swift; sourceTree = "<group>"; };
+		DE99C2972B57E94700158E02 /* BookCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BookCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE99C29C2B57F1CC00158E02 /* Kingfisher in Frameworks */,
 				DE99C23D2B56127900158E02 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -69,9 +85,12 @@
 		DE99C2262B5611BA00158E02 /* SeSACNetwork */ = {
 			isa = PBXGroup;
 			children = (
+				DE99C2952B57E92E00158E02 /* Book */,
+				DE99C2922B57A39E00158E02 /* Extension */,
+				DE99C2892B57A24600158E02 /* Translation */,
+				DE99C2882B576E3B00158E02 /* Resource */,
 				DE99C2272B5611BA00158E02 /* AppDelegate.swift */,
 				DE99C2292B5611BA00158E02 /* SceneDelegate.swift */,
-				DE99C22B2B5611BA00158E02 /* ViewController.swift */,
 				DE99C22D2B5611BA00158E02 /* Main.storyboard */,
 				DE99C2302B5611BB00158E02 /* Assets.xcassets */,
 				DE99C2322B5611BB00158E02 /* LaunchScreen.storyboard */,
@@ -79,9 +98,45 @@
 				DE99C23E2B56128900158E02 /* LottoViewController.swift */,
 				DE99C2402B56218500158E02 /* MarketViewController.swift */,
 				DE99C2422B56578600158E02 /* LottoAPIManager.swift */,
-				DE99C2822B576AE900158E02 /* BookViewController.swift */,
+				DE99C2862B576D0800158E02 /* APIKey.swift */,
 			);
 			path = SeSACNetwork;
+			sourceTree = "<group>";
+		};
+		DE99C2882B576E3B00158E02 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		DE99C2892B57A24600158E02 /* Translation */ = {
+			isa = PBXGroup;
+			children = (
+				DE99C22B2B5611BA00158E02 /* ViewController.swift */,
+				DE99C28A2B57A27400158E02 /* LanguageViewController.swift */,
+				DE99C28E2B57A33F00158E02 /* LanguageTableViewCell.swift */,
+				DE99C28F2B57A33F00158E02 /* LanguageTableViewCell.xib */,
+			);
+			path = Translation;
+			sourceTree = "<group>";
+		};
+		DE99C2922B57A39E00158E02 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DE99C2932B57A3B600158E02 /* UIButton+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		DE99C2952B57E92E00158E02 /* Book */ = {
+			isa = PBXGroup;
+			children = (
+				DE99C2822B576AE900158E02 /* BookViewController.swift */,
+				DE99C2962B57E94700158E02 /* BookCollectionViewCell.swift */,
+				DE99C2972B57E94700158E02 /* BookCollectionViewCell.xib */,
+			);
+			path = Book;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,6 +157,7 @@
 			name = SeSACNetwork;
 			packageProductDependencies = (
 				DE99C23C2B56127900158E02 /* Alamofire */,
+				DE99C29B2B57F1CC00158E02 /* Kingfisher */,
 			);
 			productName = SeSACNetwork;
 			productReference = DE99C2242B5611BA00158E02 /* SeSACNetwork.app */;
@@ -133,6 +189,7 @@
 			mainGroup = DE99C21B2B5611BA00158E02;
 			packageReferences = (
 				DE99C23B2B56127900158E02 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				DE99C29A2B57F1CC00158E02 /* XCRemoteSwiftPackageReference "Kingfisher" */,
 			);
 			productRefGroup = DE99C2252B5611BA00158E02 /* Products */;
 			projectDirPath = "";
@@ -149,9 +206,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE99C2852B576C2700158E02 /* .gitignore in Resources */,
+				DE99C2992B57E94700158E02 /* BookCollectionViewCell.xib in Resources */,
 				DE99C2342B5611BB00158E02 /* LaunchScreen.storyboard in Resources */,
 				DE99C2312B5611BB00158E02 /* Assets.xcassets in Resources */,
 				DE99C22F2B5611BA00158E02 /* Main.storyboard in Resources */,
+				DE99C2912B57A33F00158E02 /* LanguageTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,9 +223,14 @@
 			files = (
 				DE99C22C2B5611BA00158E02 /* ViewController.swift in Sources */,
 				DE99C23F2B56128900158E02 /* LottoViewController.swift in Sources */,
+				DE99C28B2B57A27400158E02 /* LanguageViewController.swift in Sources */,
+				DE99C2872B576D0800158E02 /* APIKey.swift in Sources */,
 				DE99C2412B56218500158E02 /* MarketViewController.swift in Sources */,
+				DE99C2942B57A3B600158E02 /* UIButton+Extension.swift in Sources */,
+				DE99C2902B57A33F00158E02 /* LanguageTableViewCell.swift in Sources */,
 				DE99C2832B576AE900158E02 /* BookViewController.swift in Sources */,
 				DE99C2282B5611BA00158E02 /* AppDelegate.swift in Sources */,
+				DE99C2982B57E94700158E02 /* BookCollectionViewCell.swift in Sources */,
 				DE99C22A2B5611BA00158E02 /* SceneDelegate.swift in Sources */,
 				DE99C2432B56578600158E02 /* LottoAPIManager.swift in Sources */,
 			);
@@ -401,6 +465,14 @@
 				minimumVersion = 5.8.1;
 			};
 		};
+		DE99C29A2B57F1CC00158E02 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.10.2;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -408,6 +480,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = DE99C23B2B56127900158E02 /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
+		};
+		DE99C29B2B57F1CC00158E02 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DE99C29A2B57F1CC00158E02 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

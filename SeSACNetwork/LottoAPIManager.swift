@@ -19,8 +19,6 @@ struct LottoAPIManager {
         AF.request(url).responseDecodable(of: Lotto.self) { response in
             switch response.result {
             case .success(let success):
-                print(success)
-                print(success)
                 
                 //클로저 때문에 발생. self를 붙여줘야함
                 //self.dateLabel.text = success.drwNoDate
