@@ -13,6 +13,12 @@
 		DE99C22F2B5611BA00158E02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE99C22D2B5611BA00158E02 /* Main.storyboard */; };
 		DE99C2312B5611BB00158E02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE99C2302B5611BB00158E02 /* Assets.xcassets */; };
 		DE99C2342B5611BB00158E02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE99C2322B5611BB00158E02 /* LaunchScreen.storyboard */; };
+		DE99C23D2B56127900158E02 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = DE99C23C2B56127900158E02 /* Alamofire */; };
+		DE99C23F2B56128900158E02 /* LottoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE99C23E2B56128900158E02 /* LottoViewController.swift */; };
+		DE99C2412B56218500158E02 /* MarketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE99C2402B56218500158E02 /* MarketViewController.swift */; };
+		DE99C2432B56578600158E02 /* LottoAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE99C2422B56578600158E02 /* LottoAPIManager.swift */; };
+		DE99C2832B576AE900158E02 /* BookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE99C2822B576AE900158E02 /* BookViewController.swift */; };
+		DE99C2852B576C2700158E02 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = DE99C2842B576C2700158E02 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,11 @@
 		DE99C2302B5611BB00158E02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE99C2332B5611BB00158E02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE99C2352B5611BB00158E02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE99C23E2B56128900158E02 /* LottoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoViewController.swift; sourceTree = "<group>"; };
+		DE99C2402B56218500158E02 /* MarketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketViewController.swift; sourceTree = "<group>"; };
+		DE99C2422B56578600158E02 /* LottoAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoAPIManager.swift; sourceTree = "<group>"; };
+		DE99C2822B576AE900158E02 /* BookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookViewController.swift; sourceTree = "<group>"; };
+		DE99C2842B576C2700158E02 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE99C23D2B56127900158E02 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +52,7 @@
 		DE99C21B2B5611BA00158E02 = {
 			isa = PBXGroup;
 			children = (
+				DE99C2842B576C2700158E02 /* .gitignore */,
 				DE99C2262B5611BA00158E02 /* SeSACNetwork */,
 				DE99C2252B5611BA00158E02 /* Products */,
 			);
@@ -63,6 +76,10 @@
 				DE99C2302B5611BB00158E02 /* Assets.xcassets */,
 				DE99C2322B5611BB00158E02 /* LaunchScreen.storyboard */,
 				DE99C2352B5611BB00158E02 /* Info.plist */,
+				DE99C23E2B56128900158E02 /* LottoViewController.swift */,
+				DE99C2402B56218500158E02 /* MarketViewController.swift */,
+				DE99C2422B56578600158E02 /* LottoAPIManager.swift */,
+				DE99C2822B576AE900158E02 /* BookViewController.swift */,
 			);
 			path = SeSACNetwork;
 			sourceTree = "<group>";
@@ -83,6 +100,9 @@
 			dependencies = (
 			);
 			name = SeSACNetwork;
+			packageProductDependencies = (
+				DE99C23C2B56127900158E02 /* Alamofire */,
+			);
 			productName = SeSACNetwork;
 			productReference = DE99C2242B5611BA00158E02 /* SeSACNetwork.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +131,9 @@
 				Base,
 			);
 			mainGroup = DE99C21B2B5611BA00158E02;
+			packageReferences = (
+				DE99C23B2B56127900158E02 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = DE99C2252B5611BA00158E02 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,6 +148,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE99C2852B576C2700158E02 /* .gitignore in Resources */,
 				DE99C2342B5611BB00158E02 /* LaunchScreen.storyboard in Resources */,
 				DE99C2312B5611BB00158E02 /* Assets.xcassets in Resources */,
 				DE99C22F2B5611BA00158E02 /* Main.storyboard in Resources */,
@@ -139,8 +163,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE99C22C2B5611BA00158E02 /* ViewController.swift in Sources */,
+				DE99C23F2B56128900158E02 /* LottoViewController.swift in Sources */,
+				DE99C2412B56218500158E02 /* MarketViewController.swift in Sources */,
+				DE99C2832B576AE900158E02 /* BookViewController.swift in Sources */,
 				DE99C2282B5611BA00158E02 /* AppDelegate.swift in Sources */,
 				DE99C22A2B5611BA00158E02 /* SceneDelegate.swift in Sources */,
+				DE99C2432B56578600158E02 /* LottoAPIManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +391,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DE99C23B2B56127900158E02 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.8.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DE99C23C2B56127900158E02 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DE99C23B2B56127900158E02 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DE99C21C2B5611BA00158E02 /* Project object */;
 }
